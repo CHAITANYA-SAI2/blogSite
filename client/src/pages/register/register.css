@@ -1,0 +1,50 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url("https://w.forfun.com/fetch/ba/badc453912b726a078bea60c60974754.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registerTitle{
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+.registerForm{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.registerForm >label{
+    color: white;
+    margin: 10px 0px;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightcoral;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
